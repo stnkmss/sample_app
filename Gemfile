@@ -7,6 +7,8 @@ gem 'rails', '4.2.2'
 group :development, :test do
   gem 'sqlite3'
   gem 'rspec-rails', '2.13.1'
+  gem 'spork-rails', '4.0.0'
+  gem 'childprocess', '0.5.6'
 end
 
 group :test do
